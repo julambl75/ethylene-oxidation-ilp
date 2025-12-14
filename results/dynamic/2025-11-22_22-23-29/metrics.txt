@@ -1,0 +1,31 @@
+ --> Number of rules: 7
+ --> Average length of body: 2.142857142857143
+ --> Average rule probability: 0.7428571428571429
+ --> Median rule probability: 1.0
+ --> Average number of rules per class: 1.4
+
+ --> Accuracy ignoring probabilities for class "highTemp_coolingWater": 1.0
+     Precision ignoring probabilities for class "highTemp_coolingWater": 1.0
+     Recall ignoring probabilities for class "highTemp_coolingWater": 1.0
+     F1-score ignoring probabilities for class "highTemp_coolingWater": 1.0
+ --> Accuracy ignoring probabilities for class "highTemp_source": 1.0
+     Precision ignoring probabilities for class "highTemp_source": 1.0
+     Recall ignoring probabilities for class "highTemp_source": 1.0
+     F1-score ignoring probabilities for class "highTemp_source": 1.0
+ --> Accuracy ignoring probabilities for class "lowPressure_source": 1.0
+     Precision ignoring probabilities for class "lowPressure_source": 1.0
+     Recall ignoring probabilities for class "lowPressure_source": 1.0
+     F1-score ignoring probabilities for class "lowPressure_source": 1.0
+ --> Accuracy ignoring probabilities for class "lowTemp_coolingWater": 1.0
+     Precision ignoring probabilities for class "lowTemp_coolingWater": 1.0
+     Recall ignoring probabilities for class "lowTemp_coolingWater": 1.0
+     F1-score ignoring probabilities for class "lowTemp_coolingWater": 1.0
+ --> Accuracy ignoring probabilities for class "lowTemp_source": 1.0
+     Precision ignoring probabilities for class "lowTemp_source": 1.0
+     Recall ignoring probabilities for class "lowTemp_source": 1.0
+     F1-score ignoring probabilities for class "lowTemp_source": 1.0
+ --> AUC for class "highTemp_coolingWater": 1.0
+ --> AUC for class "highTemp_source": 1.0
+ --> AUC for class "lowPressure_source": 1.0
+ --> AUC for class "lowTemp_coolingWater": 1.0
+ --> AUC for class "lowTemp_source": 1.0

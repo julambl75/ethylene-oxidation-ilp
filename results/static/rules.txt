@@ -1,0 +1,98 @@
+1:measured(e2_tti,high2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 824.
+1:measured(e2_tti,high2) :- measured_k1_p1(V_0_k1_p1), V_0_k1_p1 <= 38.
+0.5:measured(r1_t2,low1) :- measured_m2_pv(V_0_m2_pv), V_0_m2_pv <= 59.
+1:measured(snk1_z_c2h4o,low2) :- measured_m2_pv(V_0_m2_pv), V_0_m2_pv >= 153.
+1:measured(snk1_z_c2h4o,low2) :- measured_r1_t2(V_0_r1_t2), V_0_r1_t2 <= 42.
+1:measured(r1_tau,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 2628, V_0_srcr1_m_c2h4 <= 3211.
+1:measured(r1_tau,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 3900, V_0_srcr1_m_c2h4 >= 3306.
+1:measured(r1_tau,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 1410, V_0_srcr1_m_c2h4 <= 1586.
+1:measured(r1_tau,high1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp >= 64, V_0_xc2_sp <= 77.
+1:measured(e2_tti,low1) :- measured_k1_p1(V_0_k1_p1), V_0_k1_p1 <= 66, V_0_k1_p1 >= 55.
+1:measured(snk1_z_c2h4o,high2) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 73.
+1:measured(snk1_z_c2h4o,low1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp >= 113, V_0_xc2_sp <= 150.
+1:measured(snk1_z_c2h4o,low1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 1382, V_0_srcr1_m_c2h4 >= 1382.
+0.4:measured(k1_p1,high2) :- measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p >= 11.
+1:measured(k1_p1,high2) :- measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p >= 12.
+1:measured(r1_tau,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 1362.
+1:measured(r1_tau,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 4004, V_0_srcr1_m_c2h4 <= 4447.
+1:measured(e2_tti,low1) :- measured_srcr1_m_o2(V_0_srcr1_m_o2), V_0_srcr1_m_o2 <= 84.
+1:measured(r1_tau,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 2547, V_0_srcr1_m_c2h4 >= 1870.
+1:measured(snk1_t,low1) :- measured_r1_tau(V_0_r1_tau), V_0_r1_tau >= 20.
+0.5:measured(snk1_t,low1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 59.
+1:measured(snk1_z_c2h4,low2) :- failure(source,missingEthylene), measured_r1_xmax(V_0_r1_xmax), V_0_r1_xmax <= 27.
+1:measured(snk1_z_c2h4,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 2912.
+1:measured(m2_pv,low1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 94, V_0_xc2_sp >= 85.
+1:measured(r1_xmax,high1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 62.
+1:measured(m2_pv,low2) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 84.
+1:measured(r1_xmax,high1) :- failure(beforeCompressor,leak).
+1:measured(r1_tau,high2) :- failure(beforeCompressor,leak).
+1:measured(r1_xmax,high2) :- measured_srcr1_m_o2(V_0_srcr1_m_o2), V_0_srcr1_m_o2 <= 664.
+1:measured(snk1_t,low2) :- measured_r1_t2(V_0_r1_t2), V_0_r1_t2 <= 42.
+1:measured(xv2_pos,low2) :- failure(tempControlValve,stuckClosed).
+1:measured(xv3_pos,low2) :- failure(flowControlValve,stuckClosed).
+0.3:measured(e2_tti,high1) :- measured_k1_p1(V_0_k1_p1), V_0_k1_p1 >= 39, V_0_k1_p1 <= 46.
+0.6:measured(k1_p1,high1) :- measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p >= 11, V_0_srcr1_p <= 11.
+1:measured(e2_tti,high1) :- measured_k1_p1(V_0_k1_p1), V_0_k1_p1 >= 39, V_0_k1_p1 <= 44.
+1:measured(snk1_z_c2h4,low1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 3993, V_0_srcr1_m_c2h4 <= 3993.
+1:measured(r1_t2,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 2547, V_0_srcr1_m_c2h4 >= 1870.
+1:measured(r1_t2,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 2628, V_0_srcr1_m_c2h4 <= 3211.
+1:measured(r1_t2,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 1410, V_0_srcr1_m_c2h4 <= 1586.
+1:measured(snk1_z_c2h4,low1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 3211, V_0_srcr1_m_c2h4 >= 2923.
+1:measured(snk1_z_c2h4o,high2) :- failure(beforeCompressor,leak).
+1:measured(r1_tau,high2) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 62.
+1:measured(r1_t2,low1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 58.
+1:measured(r1_t2,low1) :- failure(beforeCompressor,leak).
+0.5:measured(snk1_z_c2h4o,high1) :- measured_m2_pv(V_0_m2_pv), V_0_m2_pv >= 74, V_0_m2_pv <= 89.
+1:measured(snk1_z_c2h4o,high1) :- measured_m2_pv(V_0_m2_pv), V_0_m2_pv >= 75, V_0_m2_pv <= 89.
+1:measured(r1_tau,low1) :- measured_m2_pv(V_0_m2_pv), V_0_m2_pv >= 141.
+1:measured(e2_tti,high1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 2923, V_0_srcr1_m_c2h4 >= 889.
+1:measured(r1_xmax,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 3900, V_0_srcr1_m_c2h4 >= 3306.
+1:measured(r1_t2,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 3900, V_0_srcr1_m_c2h4 >= 3306.
+0.6:measured(xc2_sp,low2) :- failure(flowControlLoop,lowSetpoint).
+0.6:measured(s4_w,low2) :- failure(flowControlLoop,lowSetpoint).
+0.3:measured(xc2_sp,low1) :- failure(flowControlLoop,lowSetpoint).
+0.3:measured(s4_w,low1) :- failure(flowControlLoop,lowSetpoint).
+0.8:measured(srcr1_m_o2,low2) :- failure(source,missingOxygen).
+1:measured(s4_w,low2) :- failure(beforeCompressor,leak).
+1:unsolved :- failure(source,missingOxygen).
+0.8:measured(xc1_sp,high2) :- failure(tempControlLoop,highSetpoint).
+1:unsolved :- failure(tempControlLoop,highSetpoint).
+0.1:measured(srcr1_m_o2,low1) :- failure(source,missingOxygen).
+1:unsolved :- failure(flowControlValve,stuckClosed).
+0.1:measured(xc1_sp,high1) :- failure(tempControlLoop,highSetpoint).
+1:unsolved :- failure(tempControlLoop,lowSetpoint).
+0.1:measured(xc2_sp,high1) :- failure(flowControlLoop,highSetpoint).
+0.1:measured(s4_w,high1) :- failure(flowControlLoop,highSetpoint).
+0.8:measured(srcr1_m_c2h4,low2) :- failure(source,missingEthylene).
+0.9:measured(xc2_sp,high2) :- failure(flowControlLoop,highSetpoint).
+0.9:measured(s4_w,high2) :- failure(flowControlLoop,highSetpoint).
+0.1:measured(xc1_sp,low1) :- failure(tempControlLoop,lowSetpoint).
+0.9:measured(xc1_sp,low2) :- failure(tempControlLoop,lowSetpoint).
+0.7:measured(srcr1_p,high2) :- failure(source,highPressure).
+0.2:measured(srcr1_p,high1) :- failure(source,highPressure).
+0.2:measured(srcr1_m_c2h4,low1) :- failure(source,missingEthylene).
+1:unsolved :- failure(tempControlValve,stuckClosed).
+0.1:measured(srcr1_p,low1) :- failure(source,lowPressure).
+0.8:measured(srcr1_p,low2) :- failure(source,lowPressure).
+1:unsolved :- failure(coolingWaterOutValve,stuckClosed).
+0.5:measured(snk1_z_c2h4o,high2) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp <= 74.
+1:measured(r1_xmax,high1) :- measured_srcr1_m_o2(V_0_srcr1_m_o2), V_0_srcr1_m_o2 >= 683, V_0_srcr1_m_o2 <= 878.
+1:measured(e2_tti,low2) :- measured_k1_p1(V_0_k1_p1), V_0_k1_p1 >= 67.
+1:measured(m2_pv,high1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp >= 106, V_0_xc2_sp <= 114.
+1:measured(m2_pv,high2) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp >= 115.
+1:measured(r1_t2,high1) :- measured_xc2_sp(V_0_xc2_sp), V_0_xc2_sp >= 143.
+1:measured(snk1_t,high1) :- measured_r1_t2(V_0_r1_t2), V_0_r1_t2 >= 223.
+1:measured(r1_xmax,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 1410, V_0_srcr1_m_c2h4 <= 1586.
+1:measured(r1_xmax,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 2547, V_0_srcr1_m_c2h4 >= 1870.
+1:measured(r1_t2,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 4004, V_0_srcr1_m_c2h4 <= 4447.
+0.4:measured(k1_p1,high1) :- failure(source,highPressure), measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p <= 11.
+1:measured(r1_t2,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 1362.
+1:measured(snk1_z_c2h4,low1) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 3306, V_0_srcr1_m_c2h4 <= 3648.
+0.7:measured(k1_p1,low2) :- measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p <= 9.
+1:measured(k1_p1,low2) :- measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p <= 8.
+0.3:measured(k1_p1,low1) :- failure(source,lowPressure), measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p >= 9.
+1:measured(r1_xmax,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 <= 1362.
+1:measured(r1_xmax,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 4004, V_0_srcr1_m_c2h4 <= 4447.
+1:measured(r1_xmax,low2) :- measured_srcr1_m_c2h4(V_0_srcr1_m_c2h4), V_0_srcr1_m_c2h4 >= 2628, V_0_srcr1_m_c2h4 <= 3211.
+1:measured(xv1_pos,low2) :- failure(coolingWaterOutValve,stuckClosed).
+0.4:measured(k1_p1,low1) :- failure(source,lowPressure), measured_srcr1_p(V_0_srcr1_p), V_0_srcr1_p >= 10.

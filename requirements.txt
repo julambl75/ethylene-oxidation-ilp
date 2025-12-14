@@ -1,0 +1,6 @@
+graphviz==2.50.0
+matplotlib==3.10.0
+numpy==2.2.2
+optuna==4.4.0
+pandas==2.2.3
+scikit-learn==1.6.1

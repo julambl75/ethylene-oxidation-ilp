@@ -1,0 +1,12 @@
+**/__pycache__/
+**/*~
+**/.*.un~
+
+**/*.swp
+
+**/aveva.log
+
+**/.ipynb_checkpoints/
+
+database/knowledge.db
+simulation/topology/topology.asp

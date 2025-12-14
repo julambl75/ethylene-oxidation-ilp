@@ -1,0 +1,26 @@
+ --> Number of rules: 28
+ --> Average length of body: 3.142857142857143
+ --> Average rule probability: 0.6428571428571429
+ --> Median rule probability: 0.6
+ --> Average number of rules per class: 2.8
+
+ --> Accuracy ignoring probabilities for class "highSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "highSetpoint_tempControlLoop": 0.9181818181818182
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 0.5454545454545454
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.5454545454545454
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.9363636363636364
+ --> Accuracy ignoring probabilities for class "missingOxygen_source": 0.7727272727272727
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.990909090909091
+ --> Accuracy ignoring probabilities for class "stuckClosed_tempControlValve": 0.9090909090909091
+ --> Accuracy ignoring probabilities for class "stuckOpen_tempControlValve": 0.5454545454545454
+ --> AUC for class "highSetpoint_flowControlLoop": 1.0
+ --> AUC for class "highSetpoint_tempControlLoop": 0.94
+ --> AUC for class "leak_beforeCompressor": 0.8
+ --> AUC for class "lowSetpoint_flowControlLoop": 1.0
+ --> AUC for class "lowSetpoint_tempControlLoop": 0.8
+ --> AUC for class "missingEthylene_source": 0.9895
+ --> AUC for class "missingOxygen_source": 0.9279999999999999
+ --> AUC for class "stuckClosed_coolingWaterOutValve": 1.0
+ --> AUC for class "stuckClosed_tempControlValve": 1.0
+ --> AUC for class "stuckOpen_tempControlValve": 0.8

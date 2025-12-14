@@ -1,0 +1,11 @@
+1:failure(source,missingEthylene) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 152.
+0.4:failure(coolingWaterOutValve,stuckClosed) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 295.
+0.4:failure(source,missingEthylene) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 295.
+0.4:failure(beforeCompressor,leak) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none).
+1:failure(beforeCompressor,leak) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti >= 296.
+0.4:failure(coolingWater,lowPressure) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 295.
+0.4:failure(tempControlLoop,lowSetpoint) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 295.
+1:failure(beforeCompressor,leak) :- measured_m2_pv(V_0_m2_pv), short_term_change_down_m1_pv(V_0_m1_pv_down), V_0_m2_pv >= 95.
+0.8:failure(beforeCompressor,leak) :- short_term_change(e2_tti,none), short_term_change_down_m2_pv(V_0_m2_pv_down), V_0_m2_pv_down <= 1.
+0.2:failure(flowControlLoop,lowSetpoint) :- short_term_change(m1_pv,none), short_term_change_down_m2_pv(V_0_m2_pv_down).
+1:failure(flowControlLoop,lowSetpoint) :- short_term_change(e2_tti,none), short_term_change_down_m2_pv(V_0_m2_pv_down), V_0_m2_pv_down >= 2.

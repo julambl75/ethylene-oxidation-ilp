@@ -1,0 +1,7 @@
+
+Rules from: /Users/julienamblard/Desktop/results/2025-11-22_22-23-29/rules.txt
+--> Accuracy for 'highTemp_coolingWater':	33.3
+--> Accuracy for 'highTemp_source':	33.3
+--> Accuracy for 'lowPressure_source':	91.7
+--> Accuracy for 'lowTemp_coolingWater':	33.3
+--> Accuracy for 'lowTemp_source':	33.3

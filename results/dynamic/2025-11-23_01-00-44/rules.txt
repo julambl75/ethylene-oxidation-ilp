@@ -1,0 +1,11 @@
+0.4:failure(coolingWater,lowPressure) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 1.
+0.4:failure(coolingWaterOutValve,stuckClosed) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 1.
+1:failure(flowControlLoop,lowSetpoint) :- short_term_change(m3_pv,none), short_term_change_down_m2_pv(V_0_m2_pv_down).
+0.4:failure(beforeCompressor,leak) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none).
+1:failure(beforeCompressor,leak) :- short_term_change(m1_pv,none), measured_m3_pv(V_0_m3_pv), V_0_m3_pv >= 28.
+0.4:failure(coolingWater,lowPressure) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_m3_pv(V_0_m3_pv), V_0_m3_pv <= 27.
+0.4:failure(tempControlLoop,lowSetpoint) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_m3_pv(V_0_m3_pv), V_0_m3_pv <= 27.
+1:failure(beforeCompressor,leak) :- short_term_change(m2_pv,none), short_term_change_down_m1_pv(V_0_m1_pv_down).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- short_term_change(m2_pv,none), short_term_change(m1_pv,none), measured_m3_pv(V_0_m3_pv), V_0_m3_pv <= 27.
+1:failure(source,missingEthylene) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up >= 3.
+0.4:failure(tempControlLoop,lowSetpoint) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 1.

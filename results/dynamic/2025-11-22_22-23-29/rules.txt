@@ -1,0 +1,7 @@
+0.1:failure(source,lowPressure) :- short_term_change(srcr1_t,none), short_term_change(e2_tsi,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 151.
+1:failure(source,lowPressure) :- short_term_change(srcr1_t,none), short_term_change(e2_tsi,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti >= 296.
+0.1:failure(source,lowPressure) :- short_term_change(srcr1_t,none), short_term_change(e2_tsi,none), short_term_change_up_m1_pv(V_0_m1_pv_up).
+1:failure(source,highTemp) :- short_term_change_up_srcr1_t(V_0_srcr1_t_up).
+1:failure(source,lowTemp) :- short_term_change_down_srcr1_t(V_0_srcr1_t_down).
+1:failure(coolingWater,highTemp) :- short_term_change_up_e2_tsi(V_0_e2_tsi_up).
+1:failure(coolingWater,lowTemp) :- short_term_change_down_e2_tsi(V_0_e2_tsi_down).

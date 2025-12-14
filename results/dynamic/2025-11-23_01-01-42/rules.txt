@@ -1,0 +1,6 @@
+1:failure(coolingWater,lowPressure) :- short_term_change_down_r1_tau(V_0_r1_tau_down), short_term_change_up_srce1_w(V_0_srce1_w_up), V_0_srce1_w_up <= 172.
+1:failure(coolingWaterOutValve,stuckClosed) :- short_term_change_down_xv1_pos(V_0_xv1_pos_down).
+1:failure(flowControlLoop,lowSetpoint) :- short_term_change_down_xc2_sp(V_0_xc2_sp_down).
+1:failure(tempControlLoop,lowSetpoint) :- short_term_change_down_xc1_sp(V_0_xc1_sp_down).
+1:failure(beforeCompressor,leak) :- short_term_change(xc2_sp,none), short_term_change_up_r1_xmax(V_0_r1_xmax_up).
+1:failure(source,missingEthylene) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up >= 3.

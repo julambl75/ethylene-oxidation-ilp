@@ -1,0 +1,65 @@
+svm: Accuracy=0.324;Precision=0.335;Recall=0.324;F1=0.293
+--> Multi-output accuracy:	87.8
+--> Accuracy for 'missingEthylene_source':	73.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	53.3
+--> Accuracy for 'lowSetpoint_tempControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+mlp: Accuracy=0.324;Precision=0.311;Recall=0.324;F1=0.263
+--> Multi-output accuracy:	87.8
+--> Accuracy for 'missingEthylene_source':	73.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	53.3
+--> Accuracy for 'lowSetpoint_tempControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+random_forest: Accuracy=0.248;Precision=0.166;Recall=0.248;F1=0.160
+--> Multi-output accuracy:	95.6
+--> Accuracy for 'missingEthylene_source':	73.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+hist_gradient: Accuracy=0.324;Precision=0.311;Recall=0.324;F1=0.263
+--> Multi-output accuracy:	87.8
+--> Accuracy for 'missingEthylene_source':	73.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	53.3
+--> Accuracy for 'lowSetpoint_tempControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+ada_boost: Accuracy=0.324;Precision=0.311;Recall=0.324;F1=0.263
+--> Multi-output accuracy:	100.0
+--> Accuracy for 'missingEthylene_source':	100.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 0.2857142857142857
+     Precision ignoring probabilities for class "leak_beforeCompressor": 0.16666666666666666
+     Recall ignoring probabilities for class "leak_beforeCompressor": 1.0
+     F1-score ignoring probabilities for class "leak_beforeCompressor": 0.2857142857142857
+ --> Accuracy ignoring probabilities for class "lowPressure_coolingWater": 0.2857142857142857
+     Precision ignoring probabilities for class "lowPressure_coolingWater": 0.16666666666666666
+     Recall ignoring probabilities for class "lowPressure_coolingWater": 1.0
+     F1-score ignoring probabilities for class "lowPressure_coolingWater": 0.2857142857142857
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.6666666666666666
+     Precision ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.3
+     Recall ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     F1-score ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.4615384615384615
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.2857142857142857
+     Precision ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.16666666666666666
+     Recall ignoring probabilities for class "lowSetpoint_tempControlLoop": 1.0
+     F1-score ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.2857142857142857
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.8095238095238095
+     Precision ignoring probabilities for class "missingEthylene_source": 0.42857142857142855
+     Recall ignoring probabilities for class "missingEthylene_source": 1.0
+     F1-score ignoring probabilities for class "missingEthylene_source": 0.6
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.2857142857142857
+     Precision ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.16666666666666666
+     Recall ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 1.0
+     F1-score ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.2857142857142857
+Warning: unable to plot for class "nominal"

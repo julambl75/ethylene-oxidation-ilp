@@ -1,0 +1,12 @@
+
+Rules from: /Users/julienamblard/Desktop/results/2025-11-17_21-27-44/rules.txt
+--> Accuracy for 'highSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'highSetpoint_tempControlLoop':	0.0
+--> Accuracy for 'leak_beforeCompressor':	33.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	2.8
+--> Accuracy for 'missingEthylene_source':	84.2
+--> Accuracy for 'missingOxygen_source':	51.4
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	23.9
+--> Accuracy for 'stuckClosed_tempControlValve':	0.0
+--> Accuracy for 'stuckOpen_tempControlValve':	0.8

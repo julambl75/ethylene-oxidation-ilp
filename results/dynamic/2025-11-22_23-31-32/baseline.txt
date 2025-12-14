@@ -1,0 +1,62 @@
+svm: Accuracy=0.610;Precision=0.535;Recall=0.610;F1=0.547
+--> Multi-output accuracy:	65.6
+--> Accuracy for 'missingEthylene_source':	93.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+mlp: Accuracy=0.524;Precision=0.462;Recall=0.524;F1=0.455
+--> Multi-output accuracy:	80.0
+--> Accuracy for 'missingEthylene_source':	80.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+random_forest: Accuracy=0.733;Precision=0.729;Recall=0.733;F1=0.729
+--> Multi-output accuracy:	80.0
+--> Accuracy for 'missingEthylene_source':	100.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	66.7
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	80.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	33.3
+hist_gradient: Accuracy=0.657;Precision=0.683;Recall=0.657;F1=0.666
+--> Multi-output accuracy:	77.8
+--> Accuracy for 'missingEthylene_source':	100.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	53.3
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	73.3
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	40.0
+ada_boost: Accuracy=0.705;Precision=0.711;Recall=0.705;F1=0.690
+--> Multi-output accuracy:	100.0
+--> Accuracy for 'missingEthylene_source':	100.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	100.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	100.0
+--> Accuracy for 'leak_beforeCompressor':	100.0
+--> Accuracy for 'lowPressure_coolingWater':	100.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	100.0
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 0.6285714285714286
+     Precision ignoring probabilities for class "leak_beforeCompressor": 0.2777777777777778
+     Recall ignoring probabilities for class "leak_beforeCompressor": 1.0
+     F1-score ignoring probabilities for class "leak_beforeCompressor": 0.4347826086956522
+ --> Accuracy ignoring probabilities for class "lowPressure_coolingWater": 0.42857142857142855
+     Precision ignoring probabilities for class "lowPressure_coolingWater": 0.2
+     Recall ignoring probabilities for class "lowPressure_coolingWater": 1.0
+     F1-score ignoring probabilities for class "lowPressure_coolingWater": 0.33333333333333337
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     Precision ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     Recall ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     F1-score ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.42857142857142855
+     Precision ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.2
+     Recall ignoring probabilities for class "lowSetpoint_tempControlLoop": 1.0
+     F1-score ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.33333333333333337
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.9619047619047619
+     Precision ignoring probabilities for class "missingEthylene_source": 0.7894736842105263
+     Recall ignoring probabilities for class "missingEthylene_source": 1.0
+     F1-score ignoring probabilities for class "missingEthylene_source": 0.8823529411764706
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.42857142857142855
+     Precision ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.2
+     Recall ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 1.0
+     F1-score ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.33333333333333337
+Warning: unable to plot for class "nominal"

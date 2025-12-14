@@ -1,0 +1,28 @@
+1:failure(source,missingEthylene) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 176.
+0.4:failure(source,missingOxygen) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 154.
+0.9:failure(coolingWaterOutValve,stuckClosed) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 165, V_0_m1_pv <= 166.
+1:failure(coolingWaterOutValve,stuckClosed) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 14, V_0_m1_pv_up >= 14.
+0.4:failure(beforeCompressor,leak) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.3:failure(tempControlLoop,highSetpoint) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 169, V_0_m1_pv >= 167.
+1:failure(tempControlLoop,highSetpoint) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 167, V_0_m1_pv <= 167.
+0.5:failure(tempControlLoop,highSetpoint) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 157, V_0_m1_pv <= 164.
+1:failure(tempControlLoop,highSetpoint) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 158, V_0_m1_pv <= 164.
+0.4:failure(tempControlLoop,highSetpoint) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 154, V_0_m1_pv <= 155.
+0.4:failure(tempControlLoop,highSetpoint) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 17, V_0_m1_pv_up >= 16.
+0.1:failure(tempControlLoop,highSetpoint) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 16, V_0_m1_pv_up >= 15.
+1:failure(flowControlLoop,highSetpoint) :- measured_m1_pv(V_0_m1_pv), short_term_change_up_m2_pv(V_0_m2_pv_up), V_0_m1_pv <= 152.
+0.9:failure(source,missingOxygen) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 153, V_0_m1_pv >= 153.
+1:failure(source,missingOxygen) :- short_term_change_up_m2_pv(V_0_m2_pv_up), short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 2, V_0_m1_pv_up >= 2.
+1:failure(source,missingEthylene) :- measured_m1_pv(V_0_m1_pv), short_term_change_up_m2_pv(V_0_m2_pv_up), V_0_m1_pv >= 156.
+0.4:failure(tempControlValve,stuckOpen) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.4:failure(tempControlLoop,lowSetpoint) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.7:failure(tempControlValve,stuckClosed) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 18, V_0_m1_pv_up >= 18.
+0.6:failure(tempControlValve,stuckClosed) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 168, V_0_m1_pv <= 170.
+1:failure(source,missingEthylene) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 156, V_0_m1_pv <= 156.
+0.4:failure(source,missingEthylene) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.6:failure(source,missingEthylene) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up >= 6, V_0_m1_pv_up <= 6.
+0.1:failure(source,missingEthylene) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 153.
+0.7:failure(source,missingEthylene) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up >= 3, V_0_m1_pv_up <= 4.
+0.4:failure(source,missingEthylene) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 154, V_0_m1_pv <= 154.
+1:failure(flowControlLoop,lowSetpoint) :- measured_m1_pv(V_0_m1_pv), short_term_change_down_m2_pv(V_0_m2_pv_down), V_0_m1_pv <= 152.
+0.4:failure(tempControlLoop,highSetpoint) :- short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.

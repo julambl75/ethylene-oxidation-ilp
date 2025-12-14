@@ -1,0 +1,8 @@
+1:failure(source,missingEthylene) :- short_term_bucket_change(m1_pv,up).
+0.4:failure(source,missingEthylene) :- short_term_bucket_change(m2_pv,none).
+0.4:failure(flowControlLoop,lowSetpoint) :- measured(short_term,m1_pv,normal).
+1:failure(flowControlLoop,lowSetpoint) :- short_term_bucket_change(m2_pv,down), measured(short_term,m1_pv,normal).
+0.4:failure(tempControlLoop,lowSetpoint) :- measured(short_term,m2_pv,normal), measured(short_term,m1_pv,normal).
+0.4:failure(beforeCompressor,leak) :- measured(short_term,m2_pv,normal), measured(short_term,m1_pv,normal).
+0.4:failure(coolingWaterOutValve,stuckClosed) :- measured(short_term,m2_pv,normal), measured(short_term,m1_pv,normal).
+0.4:failure(coolingWater,lowPressure) :- measured(short_term,m2_pv,normal), measured(short_term,m1_pv,normal).

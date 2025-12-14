@@ -1,0 +1,17 @@
+0.4:failure(source,missingOxygen) :- short_term_change(e2_tti,none), short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+1:failure(flowControlLoop,lowSetpoint) :- short_term_change(m3_pv,none), short_term_change_down_m2_pv(V_0_m2_pv_down).
+1:failure(source,missingOxygen) :- short_term_change(m2_pv,none), short_term_change_down_e2_tti(V_0_e2_tti_down).
+1:failure(source,missingOxygen) :- short_term_change(snk1_p,none), measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 292.
+1:failure(beforeCompressor,leak) :- short_term_change(m2_pv,none), short_term_change_up_e2_tti(V_0_e2_tti_up).
+0.4:failure(tempControlValve,stuckOpen) :- short_term_change(e2_tti,none), short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.4:failure(tempControlLoop,highSetpoint) :- short_term_change(e2_tti,none), short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.4:failure(tempControlLoop,lowSetpoint) :- short_term_change(e2_tti,none), short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+0.4:failure(source,missingOxygen) :- measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 289.
+1:failure(source,missingOxygen) :- measured_e2_tti(V_0_e2_tti), V_0_e2_tti <= 288.
+1:failure(flowControlLoop,highSetpoint) :- measured_m2_pv(V_0_m2_pv), V_0_m2_pv >= 102.
+1:failure(source,missingEthylene) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 160.
+1:failure(flowControlLoop,highSetpoint) :- short_term_change_up_m1_pv(V_0_m1_pv_up), short_term_change_up_m2_pv(V_0_m2_pv_up), V_0_m1_pv_up <= 4.
+1:failure(source,missingEthylene) :- short_term_change(e2_tti,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 154.
+0.4:failure(coolingWaterOutValve,stuckClosed) :- short_term_change(e2_tti,none), short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 152.
+1:failure(tempControlValve,stuckClosed) :- short_term_change(e2_tti,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 153, V_0_m1_pv <= 153.
+0.4:failure(tempControlValve,stuckClosed) :- short_term_change(e2_tti,none), short_term_change(m2_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 153.

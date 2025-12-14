@@ -1,0 +1,36 @@
+ --> Number of rules: 7
+ --> Average length of body: 3.142857142857143
+ --> Average rule probability: 0.7428571428571429
+ --> Median rule probability: 1.0
+ --> Average number of rules per class: 1.1666666666666667
+
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 0.9714285714285714
+     Precision ignoring probabilities for class "leak_beforeCompressor": 0.8333333333333334
+     Recall ignoring probabilities for class "leak_beforeCompressor": 1.0
+     F1-score ignoring probabilities for class "leak_beforeCompressor": 0.9090909090909091
+ --> Accuracy ignoring probabilities for class "lowPressure_coolingWater": 0.7142857142857143
+     Precision ignoring probabilities for class "lowPressure_coolingWater": 0.3333333333333333
+     Recall ignoring probabilities for class "lowPressure_coolingWater": 1.0
+     F1-score ignoring probabilities for class "lowPressure_coolingWater": 0.5
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     Precision ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     Recall ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+     F1-score ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.7142857142857143
+     Precision ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.3333333333333333
+     Recall ignoring probabilities for class "lowSetpoint_tempControlLoop": 1.0
+     F1-score ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.5
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.9619047619047619
+     Precision ignoring probabilities for class "missingEthylene_source": 0.8235294117647058
+     Recall ignoring probabilities for class "missingEthylene_source": 0.9333333333333333
+     F1-score ignoring probabilities for class "missingEthylene_source": 0.8749999999999999
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.7142857142857143
+     Precision ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.3333333333333333
+     Recall ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 1.0
+     F1-score ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.5
+ --> AUC for class "leak_beforeCompressor": 1.0
+ --> AUC for class "lowPressure_coolingWater": 0.8333333333333334
+ --> AUC for class "lowSetpoint_flowControlLoop": 1.0
+ --> AUC for class "lowSetpoint_tempControlLoop": 0.8333333333333334
+ --> AUC for class "missingEthylene_source": 1.0
+ --> AUC for class "stuckClosed_coolingWaterOutValve": 0.8333333333333334

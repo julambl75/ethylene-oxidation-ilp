@@ -1,0 +1,8 @@
+
+Rules from: /Users/julienamblard/Desktop/results/2025-11-23_00-59-19/rules.txt
+--> Accuracy for 'leak_beforeCompressor':	38.0
+--> Accuracy for 'lowPressure_coolingWater':	0.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	89.8
+--> Accuracy for 'lowSetpoint_tempControlLoop':	0.0
+--> Accuracy for 'missingEthylene_source':	81.2
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	25.0

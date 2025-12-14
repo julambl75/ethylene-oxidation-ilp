@@ -1,0 +1,66 @@
+--> Accuracy for 'highSetpoint_flowControlLoop':	63.1
+--> Accuracy for 'highSetpoint_tempControlLoop':	14.0
+--> Accuracy for 'leak_beforeCompressor':	65.4
+--> Accuracy for 'lowSetpoint_flowControlLoop':	68.3
+--> Accuracy for 'lowSetpoint_tempControlLoop':	36.8
+--> Accuracy for 'missingEthylene_source':	66.9
+--> Accuracy for 'missingOxygen_source':	47.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	22.8
+--> Accuracy for 'stuckClosed_tempControlValve':	30.3
+--> Accuracy for 'stuckOpen_tempControlValve':	30.0
+svm: 0.40103896103896103
+--> Accuracy for 'highSetpoint_flowControlLoop':	43.9
+--> Accuracy for 'highSetpoint_tempControlLoop':	9.7
+--> Accuracy for 'leak_beforeCompressor':	35.3
+--> Accuracy for 'lowSetpoint_flowControlLoop':	46.8
+--> Accuracy for 'lowSetpoint_tempControlLoop':	9.9
+--> Accuracy for 'missingEthylene_source':	51.7
+--> Accuracy for 'missingOxygen_source':	37.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	7.8
+--> Accuracy for 'stuckClosed_tempControlValve':	22.7
+--> Accuracy for 'stuckOpen_tempControlValve':	15.7
+mlp: 0.27376623376623377
+--> Accuracy for 'highSetpoint_flowControlLoop':	69.7
+--> Accuracy for 'highSetpoint_tempControlLoop':	28.9
+--> Accuracy for 'leak_beforeCompressor':	75.1
+--> Accuracy for 'lowSetpoint_flowControlLoop':	63.7
+--> Accuracy for 'lowSetpoint_tempControlLoop':	19.8
+--> Accuracy for 'missingEthylene_source':	72.9
+--> Accuracy for 'missingOxygen_source':	63.5
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	24.8
+--> Accuracy for 'stuckClosed_tempControlValve':	26.0
+--> Accuracy for 'stuckOpen_tempControlValve':	33.7
+random_forest: 0.42337662337662335
+--> Accuracy for 'highSetpoint_flowControlLoop':	68.0
+--> Accuracy for 'highSetpoint_tempControlLoop':	24.0
+--> Accuracy for 'leak_beforeCompressor':	72.9
+--> Accuracy for 'lowSetpoint_flowControlLoop':	65.7
+--> Accuracy for 'lowSetpoint_tempControlLoop':	25.3
+--> Accuracy for 'missingEthylene_source':	72.9
+--> Accuracy for 'missingOxygen_source':	64.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	27.7
+--> Accuracy for 'stuckClosed_tempControlValve':	22.5
+--> Accuracy for 'stuckOpen_tempControlValve':	31.7
+hist_gradient: 0.43064935064935067
+--> Accuracy for 'highSetpoint_flowControlLoop':	10.0
+--> Accuracy for 'highSetpoint_tempControlLoop':	10.0
+--> Accuracy for 'leak_beforeCompressor':	10.0
+--> Accuracy for 'lowSetpoint_flowControlLoop':	10.0
+--> Accuracy for 'lowSetpoint_tempControlLoop':	10.0
+--> Accuracy for 'missingEthylene_source':	10.0
+--> Accuracy for 'missingOxygen_source':	10.0
+--> Accuracy for 'stuckClosed_coolingWaterOutValve':	10.0
+--> Accuracy for 'stuckClosed_tempControlValve':	10.0
+--> Accuracy for 'stuckOpen_tempControlValve':	10.0
+ada_boost: 0.42337662337662335
+ --> Accuracy ignoring probabilities for class "highSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "highSetpoint_tempControlLoop": 0.9181818181818182
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 0.6363636363636364
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.5454545454545454
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.9363636363636364
+ --> Accuracy ignoring probabilities for class "missingOxygen_source": 0.7727272727272727
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.990909090909091
+ --> Accuracy ignoring probabilities for class "stuckClosed_tempControlValve": 0.9090909090909091
+ --> Accuracy ignoring probabilities for class "stuckOpen_tempControlValve": 0.5454545454545454
+Warning: unable to plot for class "nominal"
