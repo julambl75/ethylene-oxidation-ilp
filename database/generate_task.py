@@ -584,7 +584,7 @@ if __name__ == '__main__':
     parser.add_argument('-nu', '--numeric-fuzzy', action=argparse.BooleanOptionalAction, help='Use numbers instead of symbols for fuzzy values')
     parser.add_argument('-ep', '--equi-penalty', action=argparse.BooleanOptionalAction, help='Set example penalties such that each example has the same total weight')
     parser.add_argument('-t', '--test-split', default=0, help='Proportion of results from each experiment to set aside as test data')
-    parser.add_argument('--alpha', default=10, help='Cost penalty multiplier for cost-based weak constraint')
+    parser.add_argument('--alpha', default=0, help='Cost penalty multiplier for cost-based weak constraint')
     parser.add_argument('--beta', default=1.05, help='Coverage penalty threshold multiplier for coverage constraint')
     parser.add_argument('--num-sensors', help='Number of sensors to include in the solution specified via a bias constraint')
     parser.add_argument('-ocp', '--optimal-coverage-penalty', help='Optimal coverage penalty obtained from step 1 of cost optimization')
