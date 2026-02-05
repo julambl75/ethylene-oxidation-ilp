@@ -24,7 +24,7 @@ if [ "$1" == "--step1" ]; then
   cd $script_dir
   echo "Generating new train.las..."
   python ../../databases/read_db/gen_bk.py $BASE_OPTS
-  echo "Now, follow the instructions in ../cost_opt_dynamic/README.md"
+  echo "Now, follow the instructions in ../logic/cost_opt_dynamic/README.md"
   exit 0
 elif [ "$#" -ge 1 ]; then
   echo "Invalid option(s) passed, exiting..."
@@ -38,13 +38,14 @@ REF_COV_PEN=60800
 
 base_cmd="./validate.sh $BASE_OPTS"
 
-alpha_beta_options=("--alpha 10 --beta 101" "--alpha 10 --beta 105" "--alpha 500 --beta 105" "--alpha 500 --beta 110" "--alpha 1000 --beta 125" "--alpha -100 --beta 101")
+# comment out some of these to avoid running all of them if desired (very slow for large beta)
+alpha_beta_options=("--alpha 10 --beta 1.1" "--alpha 10 --beta 1.25" "--alpha 100 --beta 1.1" "--alpha 100 --beta 1.25" "--alpha 500 --beta 1.1" "--alpha 500 --beta 1.25" "--alpha 1000 --beta 1.1" "--alpha 1000 --beta 1.25")
 num_sensors_options=("--num-sensors 5" "--num-sensors 4" "--num-sensors 3" "--num-sensors 2" "--num-sensors 1")
 
 cmds=("$base_cmd -ocp $REF_COV_PEN --no-prob")
 
 # try alpha and beta variations, with cost optimization
-for ((i=0; i < ${#alpha_options[@]}; i++)); do
+for ((i=0; i < ${#alpha_beta_options[@]}; i++)); do
   alpha_beta_option="${alpha_beta_options[i]}"
   cmds+=("$base_cmd $alpha_beta_option -ocp $REF_COV_PEN --no-prob")
 done

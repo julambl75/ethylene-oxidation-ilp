@@ -1,0 +1,56 @@
+ --> Number of rules: 13
+ --> Average length of body: 3.1538461538461537
+ --> Average rule probability: 1
+ --> Median rule probability: 1
+ --> Average number of rules per class: 1.3
+
+ --> Accuracy ignoring probabilities for class "highSetpoint_flowControlLoop": 0.9781818181818182
+     Precision ignoring probabilities for class "highSetpoint_flowControlLoop": 0.88
+     Recall ignoring probabilities for class "highSetpoint_flowControlLoop": 0.88
+     F1-score ignoring probabilities for class "highSetpoint_flowControlLoop": 0.88
+ --> Accuracy ignoring probabilities for class "highSetpoint_tempControlLoop": 0.8181818181818182
+     Precision ignoring probabilities for class "highSetpoint_tempControlLoop": 0.0
+     Recall ignoring probabilities for class "highSetpoint_tempControlLoop": 0.0
+     F1-score ignoring probabilities for class "highSetpoint_tempControlLoop": 0
+ --> Accuracy ignoring probabilities for class "leak_beforeCompressor": 1.0
+     Precision ignoring probabilities for class "leak_beforeCompressor": 1.0
+     Recall ignoring probabilities for class "leak_beforeCompressor": 1.0
+     F1-score ignoring probabilities for class "leak_beforeCompressor": 1.0
+ --> Accuracy ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.8909090909090909
+     Precision ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.4
+     Recall ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.4
+     F1-score ignoring probabilities for class "lowSetpoint_flowControlLoop": 0.4000000000000001
+ --> Accuracy ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.8472727272727273
+     Precision ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.16
+     Recall ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.16
+     F1-score ignoring probabilities for class "lowSetpoint_tempControlLoop": 0.16
+ --> Accuracy ignoring probabilities for class "missingEthylene_source": 0.9890909090909091
+     Precision ignoring probabilities for class "missingEthylene_source": 0.9230769230769231
+     Recall ignoring probabilities for class "missingEthylene_source": 0.96
+     F1-score ignoring probabilities for class "missingEthylene_source": 0.9411764705882353
+ --> Accuracy ignoring probabilities for class "missingOxygen_source": 0.96
+     Precision ignoring probabilities for class "missingOxygen_source": 0.7916666666666666
+     Recall ignoring probabilities for class "missingOxygen_source": 0.76
+     F1-score ignoring probabilities for class "missingOxygen_source": 0.7755102040816326
+ --> Accuracy ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.9709090909090909
+     Precision ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.84
+     Recall ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.84
+     F1-score ignoring probabilities for class "stuckClosed_coolingWaterOutValve": 0.8399999999999999
+ --> Accuracy ignoring probabilities for class "stuckClosed_tempControlValve": 0.8181818181818182
+     Precision ignoring probabilities for class "stuckClosed_tempControlValve": 0.0
+     Recall ignoring probabilities for class "stuckClosed_tempControlValve": 0.0
+     F1-score ignoring probabilities for class "stuckClosed_tempControlValve": 0
+ --> Accuracy ignoring probabilities for class "stuckOpen_tempControlValve": 0.8254545454545454
+     Precision ignoring probabilities for class "stuckOpen_tempControlValve": 0.04
+     Recall ignoring probabilities for class "stuckOpen_tempControlValve": 0.04
+     F1-score ignoring probabilities for class "stuckOpen_tempControlValve": 0.04
+ --> AUC for class "highSetpoint_flowControlLoop": 0.99472
+ --> AUC for class "highSetpoint_tempControlLoop": 1.0
+ --> AUC for class "leak_beforeCompressor": 1.0
+ --> AUC for class "lowSetpoint_flowControlLoop": 0.988
+ --> AUC for class "lowSetpoint_tempControlLoop": 0.99328
+ --> AUC for class "missingEthylene_source": 0.99616
+ --> AUC for class "missingOxygen_source": 0.9924
+ --> AUC for class "stuckClosed_coolingWaterOutValve": 0.99328
+ --> AUC for class "stuckClosed_tempControlValve": 1.0
+ --> AUC for class "stuckOpen_tempControlValve": 0.99808

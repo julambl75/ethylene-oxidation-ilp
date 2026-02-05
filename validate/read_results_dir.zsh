@@ -6,7 +6,7 @@ dir=$1
 echo 'timestamp,n,nu,nb,n_runs,st,stf,m,op,oc,t,fi,n_rules,avg_body_len,avg_rule_prob,med_rule_prob,avg_rules_per_cl,avg_acc,min_auc,avg_auc,svm_acc,mlp_acc,random_forest_acc,hist_gradient_acc,ada_boost_acc,op_sensors,cost'
 
 for subdir in $dir/*(N/); do
-  [[ $subdir != *2025* ]] && continue
+  [[ $subdir != *202* ]] && continue
   [[ ! -f "$subdir/baseline.txt" ]] && continue
 
   args=(${(z)"$(<"$subdir/args.txt")"})

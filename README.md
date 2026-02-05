@@ -28,11 +28,14 @@ $$
 
 ### Embedded
 
-We used standard FastLAS [3] instead of DisPLAS to enable embedding cost minimization bias constraints into the learning task. As a first step we saved the example coverage penalty of the optimal hypothesis as $cov_{pen}^{opt}$; then we added a bias constraint to limit the allowed example coverage penalty to $\beta \cdot cov_{pen}^{opt}$, along with an additional "sensor cost" term to the hypothesis costing function:
+We used standard FastLAS [3] instead of DisPLAS to enable embedding cost minimization bias constraints into the learning task. As a first step we saved the example coverage from the optimal hypothesis as $cov_{eg}^{base}$; then we added bias constraints to set the maximum allowed example coverage to $\beta \cdot cov_{eg}^{base}$, and prefer solutions such that the total cost associated with process parameters appearing in the hypothesis is minimal, with a parameter $\alpha$:
 
 $$
-S(H,T) = 100 \cdot |uncov(H,T)| \; + \sum_{h\in H}{(50 + 5 \cdot |body(h)|)} + \alpha \cdot \sum_{s\in sensors(H)}{cost(s)}
+S(H,T) = cov_{eg} + \sum_{h\in H}{(50 + 5 \cdot |body(h)|)} + \alpha \cdot \sum_{s\in sensors(H)}{cost(s)}
 $$
+with $cov_{eg} = 100 \cdot |uncov_f(H,\mathcal{T}_{dynamic})| + 225 \cdot |uncov_n(H,\mathcal{T}_{dynamic})|$
+
+($uncov_f$ for each uncovered failure example, and $uncov_n$ for each uncovered nominal example)
 
 ## Technologies Used
 

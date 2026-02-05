@@ -1,0 +1,10 @@
+failure(source,missingEthylene) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 158.
+failure(source,missingOxygen) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up >= 2, V_0_m1_pv_up <= 4.
+failure(flowControlLoop,highSetpoint) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 6, V_0_m1_pv_up >= 5.
+failure(beforeCompressor,leak) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 151, V_0_m1_pv >= 150.
+failure(tempControlValve,stuckOpen) :- short_term_change(m1_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 152.
+failure(tempControlLoop,lowSetpoint) :- short_term_change(m1_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 152.
+failure(coolingWaterOutValve,stuckClosed) :- short_term_change(m1_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 152.
+failure(tempControlLoop,highSetpoint) :- short_term_change(m1_pv,none), measured_m1_pv(V_0_m1_pv), V_0_m1_pv >= 152.
+failure(flowControlLoop,lowSetpoint) :- measured_m1_pv(V_0_m1_pv), V_0_m1_pv <= 149.
+failure(tempControlValve,stuckClosed) :- short_term_change_up_m1_pv(V_0_m1_pv_up), V_0_m1_pv_up <= 1.
